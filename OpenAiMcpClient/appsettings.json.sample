@@ -1,0 +1,6 @@
+{
+    "AI": {
+      "ApiKey": "PUT-OPEN-AI-API-KEY-HERE",
+      "ModelName": "gpt-4o-mini"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "AI": {
+      "Endpoint": "PUT-AZURE-OPEN-AI-ENDPOINT-URL-HERE",
+      "ApiKey": "PUT-AZURE-OPEN-AI-API-KEY-HERE",
+      "DeploymentName": "gpt-4o-mini"
+    }
+}

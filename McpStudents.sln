@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsMcpServer", "Studen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OllamaMcpClient", "OllamaMcpClient\OllamaMcpClient.csproj", "{2484F26D-A194-462E-84BB-C1FC666197EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureMcpClient", "AzureMcpClient\AzureMcpClient.csproj", "{AD6FBE48-E5DF-4C5B-A553-62D949222867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAiMcpClient", "OpenAiMcpClient\OpenAiMcpClient.csproj", "{B7A95266-5456-419B-B61B-2A409E8753BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{2484F26D-A194-462E-84BB-C1FC666197EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2484F26D-A194-462E-84BB-C1FC666197EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2484F26D-A194-462E-84BB-C1FC666197EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD6FBE48-E5DF-4C5B-A553-62D949222867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD6FBE48-E5DF-4C5B-A553-62D949222867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD6FBE48-E5DF-4C5B-A553-62D949222867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD6FBE48-E5DF-4C5B-A553-62D949222867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A95266-5456-419B-B61B-2A409E8753BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A95266-5456-419B-B61B-2A409E8753BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A95266-5456-419B-B61B-2A409E8753BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A95266-5456-419B-B61B-2A409E8753BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
