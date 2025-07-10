@@ -2,7 +2,6 @@
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using ModelContextProtocol.Server;
-using StudentsMcpServer.Models;
 using System.ComponentModel;
 
 var builder = Host.CreateApplicationBuilder(args);
@@ -15,9 +14,6 @@ builder.Services
     .AddMcpServer()
     .WithStdioServerTransport()
     .WithToolsFromAssembly();
-
-
-builder.Services.AddSingleton<StudentService>();
 
 await builder.Build().RunAsync();
 
